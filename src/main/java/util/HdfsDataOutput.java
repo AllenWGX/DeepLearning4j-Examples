@@ -30,7 +30,7 @@ public class HdfsDataOutput {
                             .setAppName("Output RDD Mnist");
         JavaSparkContext jsc = new JavaSparkContext(conf);
         
-        jsc.parallelize(listMinistTrain).saveAsObjectFile("mnist_train.data");
+        jsc.parallelize(listMinistTrain).saveAsObjectFile("mnist_train.data");  //serialize mnist dataset
         jsc.parallelize(listMinistTest).saveAsObjectFile("mnist_test.data");
         
         jsc.stop();
