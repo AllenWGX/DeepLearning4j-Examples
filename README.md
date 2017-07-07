@@ -9,3 +9,6 @@ Development Env:
 
 1.JDK 1.8
 2.Deeplearning4j v0.7.0
+
+#Update
+Update Version to 0.8.0
