@@ -10,6 +10,7 @@
   	<dl4j.version>0.8.0</dl4j.version>
   	<datavec.version>0.8.0</datavec.version>
   	<scala.binary.version>2.11</scala.binary.version>
+  	<jcommander.version>1.27</jcommander.version>
   </properties>
   
  <dependencies>
@@ -58,6 +59,11 @@
                     <artifactId>hive-jdbc</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>jcommander</artifactId>
+            <version>${jcommander.version}</version>
         </dependency>
  </dependencies>
   	
