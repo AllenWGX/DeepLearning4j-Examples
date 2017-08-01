@@ -29,7 +29,7 @@ public class XOR {
                                 .list()
                                 .layer(0, new DenseLayer.Builder()
                                                         .nIn(2)
-                                                        .nOut(2).activation(Activation.RELU)//Activation.RELU will not work
+                                                        .nOut(2).activation(Activation.RELU)//Activation.IDENTITY will not work
                                                                                             //since non-linear transformation
                                                                                             //is needed here
                                                         .build())
