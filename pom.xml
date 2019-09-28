@@ -49,6 +49,12 @@
 		    <artifactId>dl4j-spark-nlp_${scala.binary.version}</artifactId>
 		    <version>${dl4j.version}_spark_2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-ui -->
+		<dependency>
+		    <groupId>org.deeplearning4j</groupId>
+		    <artifactId>deeplearning4j-ui_${scala.binary.version}</artifactId>
+		    <version>${dl4j.version}</version>
+		</dependency>
 		<dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-hive_2.10</artifactId>
